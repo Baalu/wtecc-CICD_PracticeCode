@@ -1,6 +1,6 @@
 name: GitHub Action Lab Test
 on: 
-  push: main
+  push:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
