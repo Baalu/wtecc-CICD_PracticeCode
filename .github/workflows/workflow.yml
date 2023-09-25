@@ -1,0 +1,11 @@
+name: GitHub Action Lab Test
+on: 
+  push: main
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+jobs:
+  github-action-test:
+    runs-on: ubuntu-latest
+      container: python:3.9-slim
+      
